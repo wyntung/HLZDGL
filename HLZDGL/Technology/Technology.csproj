@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C7860B7A-6196-4EAA-9C46-09CAD056A443}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Technology</RootNamespace>
+    <AssemblyName>Technology</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddCmdItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCmdItemForm.Designer.cs">
+      <DependentUpon>AddCmdItemForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddDebugItemProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDebugItemProject.Designer.cs">
+      <DependentUpon>AddDebugItemProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddDebugItemProjectDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDebugItemProjectDetails.Designer.cs">
+      <DependentUpon>AddDebugItemProjectDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddFlow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddFlow.Designer.cs">
+      <DependentUpon>AddFlow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddFlowProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddFlowProject.Designer.cs">
+      <DependentUpon>AddFlowProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddFlowProjectDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddFlowProjectDetails.Designer.cs">
+      <DependentUpon>AddFlowProjectDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddUser.Designer.cs">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddUserGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddUserGroup.Designer.cs">
+      <DependentUpon>AddUserGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CmdItemInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CmdItemInfo.Designer.cs">
+      <DependentUpon>CmdItemInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DebugItemInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DebugItemInfo.Designer.cs">
+      <DependentUpon>DebugItemInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteForm.Designer.cs">
+      <DependentUpon>DeleteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FlowInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FlowInfo.Designer.cs">
+      <DependentUpon>FlowInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FlowProjectInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FlowProjectInfo.Designer.cs">
+      <DependentUpon>FlowProjectInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListViewColumnSorter.cs" />
+    <Compile Include="ProjectManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManager.Designer.cs">
+      <DependentUpon>ProjectManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TechnologyLib.cs" />
+    <Compile Include="DebugSchemeInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DebugSchemeInfo.Designer.cs">
+      <DependentUpon>DebugSchemeInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInfo.Designer.cs">
+      <DependentUpon>UserInfo.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddCmdItemForm.resx">
+      <DependentUpon>AddCmdItemForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddDebugItemProject.resx">
+      <DependentUpon>AddDebugItemProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddDebugItemProjectDetails.resx">
+      <DependentUpon>AddDebugItemProjectDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddFlow.resx">
+      <DependentUpon>AddFlow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddFlowProject.resx">
+      <DependentUpon>AddFlowProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddFlowProjectDetails.resx">
+      <DependentUpon>AddFlowProjectDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddUser.resx">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddUserGroup.resx">
+      <DependentUpon>AddUserGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CmdItemInfo.resx">
+      <DependentUpon>CmdItemInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DebugItemInfo.resx">
+      <DependentUpon>DebugItemInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DebugSchemeInfo.resx">
+      <DependentUpon>DebugSchemeInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteForm.resx">
+      <DependentUpon>DeleteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FlowInfo.resx">
+      <DependentUpon>FlowInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FlowProjectInfo.resx">
+      <DependentUpon>FlowProjectInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManager.resx">
+      <DependentUpon>ProjectManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInfo.resx">
+      <DependentUpon>UserInfo.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
